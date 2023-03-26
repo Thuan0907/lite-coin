@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner-wrap {
+  position: relative;
+  background: url(https://vtcoder-html6.surge.sh/img/bg-banner02.jpg);
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+  .bg-color {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+    background-color: rgba(24, 214, 133, 0.5294117647058824);
+    min-height: 680px;
+  }
+  .banner-content {
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    h2 {
+      color: #ffff;
+    }
+    p {
+      color: #fff;
+    }
+    .btn-tokens {
+      color: #fff;
+      border: 0;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      padding: 7px 60px;
+      border-radius: 60px;
+      margin: 50px 10px 0 0;
+      background-color: #18d685;
+    }
+
+    .btn-paper {
+      color: #fff;
+      border: 0;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 24px;
+      padding: 7px 60px;
+      border-radius: 60px;
+      margin: 50px 10px 0 0;
+      background-color: #00bdaf;
+    }
+  }
+}
